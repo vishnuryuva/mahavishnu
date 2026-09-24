@@ -72,6 +72,25 @@ const STUDENTS = {
     marks: [78, 85, 72, 90, 81, 76, 88, 84],
   },
 
+  AAA1098: {
+  ...blank(),
+  photo: '/students/AAA1098.jpg',
+  certNo: 'TNNC20201098',
+  documentDate: '30/05/2015',
+  name: 'Y. SAHAYA SATHISH KUMAR',
+  dob: '06-06-1983',
+  duration: '2010 TO 2011',
+  examDate: '09-06-2011',
+  institution: 'Sri Maha Vishnu Institute',
+  institutionDetail: 'TN / AAA152 RAMACHANDRA.S EDUCATIONAL INSTITUTE PERAMBALUR',
+  certificateYears: '2010 TO 2011',
+  placed: 'Distinction',
+  theory: 'Distinction',
+  practical: 'Distinction',
+  department: 'ITI WELDER',
+  marks: [82, 88, 79, 92, 85, 80, 90, 87],
+},
+
   AAA1904: { ...blank() },
 }
 
