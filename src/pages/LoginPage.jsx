@@ -14,7 +14,16 @@ export default function LoginPage() {
   }, [])
 
   return (
-    <div className="main-wrapper">
+    <div
+      className="main-wrapper"
+      style={{
+        backgroundImage: "url('/assets/images/login-register.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        minHeight: '100vh',
+      }}
+    >
       <Preloader hidden={!loading} />
       <AuthLayout>
         {showRecover ? (
