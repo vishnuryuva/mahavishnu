@@ -18,6 +18,20 @@ export const DEPARTMENTS = {
     ],
   },
 
+  'ITI MASON AND BRICKLAYER': {
+    courseCode: 'MACV01',
+    subjects: [
+      { name: 'COMMUNICATIVE ENGLISH & COMPUTER FUNDAMENTALS', max: 100, min: 40, code: 'MAB1' },
+      { name: 'ENGINEERING DRAWING',                           max: 100, min: 40, code: 'MAB2' },
+      { name: 'WORKSHOP CALCULATION & SCIENCE',                max: 100, min: 40, code: 'MAB3' },
+      { name: 'MASONRY & BUILDING CONSTRUCTION',               max: 100, min: 40, code: 'MAB4' },
+      { name: 'PRACTICAL 1',                                   max: 100, min: 40, code: 'MAB5' },
+      { name: 'PRACTICAL II',                                  max: 100, min: 40, code: 'MAB6' },
+      { name: 'PRACTICAL III',                                 max: 100, min: 40, code: 'MAB7' },
+      { name: 'PRACTICAL IV',                                  max: 100, min: 40, code: 'MAB8' },
+    ],
+  },
+
   // 'ITI FITTER': {
   //   courseCode: 'XXXX',
   //   subjects: [
@@ -90,6 +104,60 @@ const STUDENTS = {
   department: 'ITI WELDER',
   marks: [82, 88, 79, 92, 85, 80, 90, 87],
 },
+
+  AAA2008: {
+    ...blank(),
+    photo: '/students/AAA2008.jpg',
+    certNo: 'TNNC20202008',
+    documentDate: '30/05/2005',
+    name: 'MURUGAN PANDI',
+    duration: '2004 TO 2005',
+    examDate: '09-06-2005',
+    institution: 'Sri Maha Vishnu Institute',
+    institutionDetail: 'TN / AAA152 RAMACHANDRA.S EDUCATIONAL INSTITUTE PERAMBALUR',
+    certificateYears: '2004 TO 2005',
+    placed: 'First',
+    theory: 'First',
+    practical: 'First',
+    department: 'ITI MASON AND BRICKLAYER',
+    marks: [68, 72, 65, 70, 64, 74, 62, 68],
+  },
+
+  AAA2042: {
+    ...blank(),
+    photo: '/students/AAA2042.jpg',
+    certNo: 'TNNC20202042',
+    documentDate: '15/06/2010',
+    name: 'VENGATESH',
+    duration: '2009 TO 2010',
+    examDate: '09-06-2010',
+    institution: 'Sri Maha Vishnu Institute',
+    institutionDetail: 'TN/2020478/ BHARANI COMMUNITY COLLEGE VADALUR',
+    certificateYears: '2009 TO 2010',
+    placed: 'Distinction',
+    theory: 'Distinction',
+    practical: 'Distinction',
+    department: 'ITI MASON AND BRICKLAYER',
+    marks: [82, 88, 79, 92, 85, 80, 90, 87],
+  },
+
+  AAA2027: {
+    ...blank(),
+    photo: '/students/AAA2027.jpg',
+    certNo: 'TNNC20202027',
+    documentDate: '15/06/2007',
+    name: 'SRIKANTH THIRUMANI',
+    duration: '2006 TO 2007',
+    examDate: '09-06-2007',
+    institution: 'Sri Maha Vishnu Institute',
+    institutionDetail: 'REG/ NUM/TN/227077 SRI MADHURA EDUCATIONAL INSTITUTION PERAMBALUR',
+    certificateYears: '2006 TO 2007',
+    placed: 'Distinction',
+    theory: 'Distinction',
+    practical: 'Distinction',
+    department: 'ITI MASON AND BRICKLAYER',
+    marks: [84, 89, 78, 93, 86, 82, 91, 88],
+  },
 
   AAA1904: { ...blank() },
 }
