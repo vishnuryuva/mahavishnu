@@ -161,6 +161,7 @@ const STUDENTS = {
 
   AAA1994: {
     ...blank(),
+    photo: '/students/AAA1994.jpg',
     certNo: 'TNNC20201994',
     documentDate: '15/06/2004',
     name: 'SEKAR KARUPPAIAH',
