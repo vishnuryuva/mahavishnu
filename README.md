@@ -13,7 +13,7 @@
     /marksheet/AAA0098     Marksheet   (opens in a new tab from the marks page)
     /certificate/AAA0098   Certificate (opens in a new tab from the marks page)
 
-Valid register numbers: AAA0098, AAA1904 – edit them in src/data/students.js.
+Valid register numbers include AAA0098, AAA1994, and AAA1904 – edit them in src/data/students.js.
 Unknown numbers on /mark fall back to the API lookup (src/services/marksheet.js).
 
 ## Student data

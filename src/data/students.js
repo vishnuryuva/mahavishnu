@@ -159,6 +159,23 @@ const STUDENTS = {
     marks: [84, 89, 78, 93, 86, 82, 91, 88],
   },
 
+  AAA1994: {
+    ...blank(),
+    certNo: 'TNNC20201994',
+    documentDate: '15/06/2004',
+    name: 'SEKAR KARUPPAIAH',
+    duration: '2003 TO 2004',
+    examDate: '09-06-2004',
+    institution: 'Sri Maha Vishnu Institute',
+    institutionDetail: 'REG/AAA098 SR EDUCATIONAL INSTITUTIONS KARAIKUDI',
+    certificateYears: '2003 TO 2004',
+    placed: 'Distinction',
+    theory: 'Distinction',
+    practical: 'Distinction',
+    department: 'ITI MASON AND BRICKLAYER',
+    marks: [84, 89, 78, 93, 86, 82, 91, 88],
+  },
+
   AAA1904: { ...blank() },
 }
 
