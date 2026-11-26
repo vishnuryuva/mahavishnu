@@ -189,7 +189,7 @@ const STUDENTS = {
     department: 'ITI MASON AND BRICKLAYER',
     marks: [67, 71, 64, 70, 66, 73, 63, 69],
   },
-    AAA2001: {
+    AAA2032: {
     ...blank(),
     photo: '/students/AAA2032.jpg',
     certNo: 'TNNC20202032',
